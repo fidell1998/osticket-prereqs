@@ -19,12 +19,13 @@ This specific guide is designed for a broad audience — from non-technical user
 
 <h2>List of Prerequisites</h2>
 
-- IIS
-- PHP Manager 
-- VC_redistx86 
-- MySQL 5.5.62 
-- Rewrite Module
 - Heidi SQL
+- MySQL 5.5.62
+- osTicket-v1.15.8
+- php7.3.8 
+- PHP Manager
+- Rewrite Module 
+- VC_redistx86 
 
 <h2>Installation Steps</h2>
 
@@ -134,6 +135,39 @@ This specific guide is designed for a broad audience — from non-technical user
 </p>
 
 <br />
+
 <h3> Install PHP Manager </h3>
 
+<img width="1179" height="736" alt="11" src="https://github.com/user-attachments/assets/e3c41eed-24e6-46b6-b3eb-ea1f7f7e2b06" />
+
+<br>
+
+<h3> Install Rewrite Module </h3>
+
+<img width="1190" height="711" alt="12" src="https://github.com/user-attachments/assets/3231fc98-7e83-4b12-8462-e7e1a28557cf" />
+
+<br>
+
+<h3> Create the directory </h3>
+<p>
+  
+- Let's open Windows (C:) and create a new file called "PHP"
+
+<img width="1200" height="707" alt="13" src="https://github.com/user-attachments/assets/bacae6d2-28c7-40d6-a5a4-1aed572bbd1e" />
+
+- Next we will unzip or move our PHP7.3.8 File to the PHP Folder we just created.
+
+<img width="1844" height="661" alt="14" src="https://github.com/user-attachments/assets/62e9922b-b960-4f2d-aab2-59fa9b9368ca" />
+<img width="979" height="595" alt="15" src="https://github.com/user-attachments/assets/3a718364-497c-4051-b6a0-57f86d175ee0" />
+  
+</p>
+<br> 
+
+<h3>Install VC_redist</h3>
+<p>
+
+  
+</p>
+
+<br>
 
