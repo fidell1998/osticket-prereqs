@@ -27,6 +27,8 @@ This specific guide is designed for a broad audience — from non-technical user
 - Rewrite Module 
 - VC_redistx86 
 
+- <i>All of these files can be found in OsTicket documentation.</i>
+
 <h2>Installation Steps</h2>
 
 <h3> Create a Virtual Machine </h3>
@@ -164,10 +166,35 @@ This specific guide is designed for a broad audience — from non-technical user
 <br> 
 
 <h3>Install VC_redist</h3>
+<img width="1139" height="666" alt="16" src="https://github.com/user-attachments/assets/c9dd65e9-1c58-4ed0-ac08-4a16bb368034" />
+
+<br>
+
+<h3> Install and setup MySQL </h3>
+<p>
+<img width="1147" height="685" alt="17" src="https://github.com/user-attachments/assets/86f55028-7859-4fd6-89d2-6e9d25fc76f1" />
+
+- Launch the **MySQL Instance Configuration Wizard**.
+
+- Select **"Standard Configuration"**, then click **Next**, and click **Next** again on the following screen.  
+  You should now see this page:
+
+  <img width="1148" height="676" alt="18" src="https://github.com/user-attachments/assets/f2b95147-8c7b-467a-bde2-1cb8df1a04f5" />
+
+- Set a **password** and make sure to write it down — you'll need it later.  
+  For this tutorial, we’ll use `"root"` as the password.
+  
+- Click **Next**, then click **Finish** once the configuration process completes.
+
+</p>
+<br> 
+
+<h3> Register PHP </h3>
 <p>
 
   
 </p>
-
 <br>
+
+
 
