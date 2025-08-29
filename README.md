@@ -36,19 +36,41 @@ This specific guide is designed for a broad audience — from non-technical user
   
 - Select "Create a virtual machine" in Azure.
 
-- During the setup process, create a new resource group and give it a name of your choice.
+- This will take you to the setup screen shown below:
+
+<img width="1065" height="886" alt="1" src="https://github.com/user-attachments/assets/67ae3377-57d5-41b2-b518-764163ffd657" />
+
+- During the setup process, create a new **resource group** and give it a name of your choice.
 
 - Make sure to name your resource group clearly for easy identification.
 
-- For the image, select Windows 10 as the operating system for the virtual machine.
+- Under the **Image** section, select **Windows 10** as the operating system for your virtual machine.
 
-<br>
+- Scroll down and choose a **size** that includes at least **2 vCPUs**.
 
-  <img width="1065" height="886" alt="1" src="https://github.com/user-attachments/assets/9d8743aa-fc99-4bfa-9cb9-490fc7ba2838" />
-  
+- Under **Administrator account**, enter a **username** and **password** — you'll need this information later to access your VM.
+
+- At the bottom of the page, check the box that says:  
+  *“I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights”* under the **Licensing** section.
 </p>
+
 <br />
 
+<h3> Valadation </h3>
+<p> 
+- Once all required fields are filled out correctly, click **Review + create** at the bottom of the page.
+
+- You should see a screen like this:
+<img width="425" height="881" alt="2" src="https://github.com/user-attachments/assets/1b2e7142-68e2-46d2-8415-3d0017c8ecbb" />
+
+- Azure will automatically create a **virtual network** for your virtual machine.
+
+- Once **validation passes**, you’re good to go — click **Create** to start the deployment.
+</p>
+
+<br />
+
+<h3></h3>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
