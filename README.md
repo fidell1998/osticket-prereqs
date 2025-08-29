@@ -56,8 +56,9 @@ This specific guide is designed for a broad audience — from non-technical user
 
 <br />
 
-<h3> Valadation </h3>
+<h3> Validation </h3>
 <p> 
+  
 - Once all required fields are filled out correctly, click **Review + create** at the bottom of the page.
 
 - You should see a screen like this:
@@ -70,14 +71,41 @@ This specific guide is designed for a broad audience — from non-technical user
 
 <br />
 
-<h3></h3>
+<h3> Get public IP address </h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+  
+- Here is the **overview** of our virtual machine:
+  
+<img width="1890" height="875" alt="3" src="https://github.com/user-attachments/assets/095deb0a-34fb-47c2-be48-4f60dd37a914" />
+  
+- Copy or note down the **Public IP address** — you’ll need it to connect to the VM.
+
+- Make sure you have **Microsoft Remote Desktop** (or the **Windows App**) installed on your desktop.  
+  This will allow you to open and access your virtual machine.
+
+  </p>
+<br>
+
+<h3> Add PC </h3>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+- Add a PC through the **Microsoft Remote Desktop** or **Windows App**.
+  
+<img width="1410" height="716" alt="4" src="https://github.com/user-attachments/assets/ea478d66-eee2-4298-9c6a-c4df8d2c8022" />
+
+- You will then be prompted to enter a **PC Name** — this is where you input the **IP address** from the previous step.
+
+- In the next prompt, enter the **username and password** you created for the virtual machine.
+
+<img width="1913" height="1072" alt="5" src="https://github.com/user-attachments/assets/b5afde8f-62f0-48d1-b668-0e9aff522025" />
+
+- You should now be connected to your virtual machine!
+  
 </p>
+
 <br />
+
+<h3></h3>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
