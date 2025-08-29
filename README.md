@@ -117,11 +117,11 @@ This specific guide is designed for a broad audience — from non-technical user
 - On the left-hand side, click **"Turn Windows features on or off."**  
   This should bring you to the following window:
 
-  <img width="412" height="361" alt="8" src="https://github.com/user-attachments/assets/ee19fc99-5ef3-4356-8305-b8e396df8738" />
+ <img width="412" height="361" alt="8" src="https://github.com/user-attachments/assets/3ad0ac10-9448-4ec2-8389-bc04c7fc026a" />
 
 - Check **Internet Information Services** (click the checkbox until it turns black), then expand it by clicking the **plus (+)** sign next to it.
 
-<img width="378" height="380" alt="9" src="https://github.com/user-attachments/assets/09c2d6bb-1c6d-4f4d-bdd5-b2cf91162cf4" />
+<img width="378" height="380" alt="9" src="https://github.com/user-attachments/assets/8fcc3cf4-470b-4d06-a1cc-33f50f27a864" />
 
 - Navigate to:  
   **World Wide Web Services** → **Application Development Features** → check **CGI**, then click **OK**.
