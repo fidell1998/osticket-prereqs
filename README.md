@@ -192,9 +192,19 @@ This specific guide is designed for a broad audience — from non-technical user
 <h3> Register PHP </h3>
 <p>
 
+- Open IIS
+
+<img width="819" height="657" alt="19" src="https://github.com/user-attachments/assets/c961a237-7d9a-43ca-a8be-16eddbfbc834" />
+
+- Open PHP Manager
+
+<img width="1451" height="778" alt="20" src="https://github.com/user-attachments/assets/ed552d40-a8b3-4476-8866-951bb092668b" />
+
+- Then click "Register new PHP version"
+
+<img width="1822" height="753" alt="21" src="https://github.com/user-attachments/assets/c7d9687a-e578-4922-a38a-8d9a46d6f0a3" />
+
+- From our PHP folder we want to open php.CGI
   
 </p>
 <br>
-
-
-
