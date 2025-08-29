@@ -242,3 +242,56 @@ This specific guide is designed for a broad audience — from non-technical user
 <br>
 
 <h3>Open osTicket in Browser</h3>
+<p>
+  
+- Make sure **IIS** is open and running **as Administrator**.
+
+- In the **Connections** panel on the left, expand the top option — this should be the name of your virtual machine (in this example, it's `osticket-vm`).  
+  Click the small arrow to expand it.
+
+- Navigate to:  
+  `Sites` → `Default Web Site` → click on the **osTicket** folder.
+
+- On the right-hand side, click **"Browse *:80 (http)"**.
+
+<img width="1425" height="750" alt="27" src="https://github.com/user-attachments/assets/f698aad9-5afe-47cd-9a4c-6bef49fe4177" />
+
+- If everything in the tutorial has been done correctly so far, you should now see the osTicket installer page:
+
+<img width="929" height="1004" alt="28" src="https://github.com/user-attachments/assets/43a5b9e9-2e68-475b-b711-c2382e3006a2" />
+
+- If you **don’t** see this page, I recommend going back and reviewing each step carefully — even a small misconfiguration can prevent this screen from loading.
+
+</p>
+<br>
+
+<h3>Enable Extensions</h3>
+<p>
+  
+- Back in **IIS**, while still in the **osTicket** folder, click **PHP Manager**.
+
+<img width="1425" height="750" alt="29" src="https://github.com/user-attachments/assets/39a7c9ce-73e3-4d00-a15f-ec7a305ad631" />
+
+- Under **PHP Extensions**, click **"Enable or disable an extension."**
+
+- Enable the following extensions by selecting and enabling them:
+
+  - `php_imap.dll`  
+  - `php_intl.dll`  
+  - `php_opcache.dll`
+
+<img width="1918" height="1039" alt="30" src="https://github.com/user-attachments/assets/82ccf110-e26e-4e78-9c0a-840e5690fbcb" />
+
+- Once those are enabled, refresh the osTicket page in your browser.  
+  It should now look like this, with fewer warnings and a green check next to required extensions:
+
+<img width="918" height="1007" alt="31" src="https://github.com/user-attachments/assets/b70662b1-dd0d-41f4-ab49-058b595b24aa" />
+
+</p>
+<br>
+
+<h3></h3>
+<p>
+  
+</p>
+<br>
