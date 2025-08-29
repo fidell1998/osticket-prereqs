@@ -105,12 +105,35 @@ This specific guide is designed for a broad audience — from non-technical user
 
 <br />
 
-<h3></h3>
+<h3>Enable IIS</h3>
+<p>
+  
+- Open the **Control Panel**.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="816" height="885" alt="7" src="https://github.com/user-attachments/assets/c043bb14-c848-404f-b8f8-4d1081d013e1" />
+
+- Select **Uninstall a program** under the **Programs** section.
+
+- On the left-hand side, click **"Turn Windows features on or off."**  
+  This should bring you to the following window:
+
+  <img width="412" height="361" alt="8" src="https://github.com/user-attachments/assets/ee19fc99-5ef3-4356-8305-b8e396df8738" />
+
+- Check **Internet Information Services** (click the checkbox until it turns black), then expand it by clicking the **plus (+)** sign next to it.
+
+<img width="378" height="380" alt="9" src="https://github.com/user-attachments/assets/09c2d6bb-1c6d-4f4d-bdd5-b2cf91162cf4" />
+
+- Navigate to:  
+  **World Wide Web Services** → **Application Development Features** → check **CGI**, then click **OK**.
+
+- To verify that IIS is running correctly, open a web browser and go to `http://127.0.0.1`.  
+  If everything was configured properly, you should see a page like this:
+
+<img width="926" height="1010" alt="10" src="https://github.com/user-attachments/assets/ceb962c0-b5ca-49a4-909f-c6b796657788" />
+
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
 <br />
+<h3> Install PHP Manager </h3>
+
+
