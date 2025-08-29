@@ -27,7 +27,7 @@ This specific guide is designed for a broad audience — from non-technical user
 - Rewrite Module 
 - VC_redistx86 
 
-- <i>All of these files can be found in OsTicket documentation.</i>
+- <i>All of these files can be found in osTicket documentation.</i>
 
 <h2>Installation Steps</h2>
 
@@ -192,19 +192,53 @@ This specific guide is designed for a broad audience — from non-technical user
 <h3> Register PHP </h3>
 <p>
 
-- Open IIS
+- Open **IIS (Internet Information Services)**.
 
 <img width="819" height="657" alt="19" src="https://github.com/user-attachments/assets/c961a237-7d9a-43ca-a8be-16eddbfbc834" />
 
-- Open PHP Manager
+- In the **IIS Manager**, open **PHP Manager**.
 
 <img width="1451" height="778" alt="20" src="https://github.com/user-attachments/assets/ed552d40-a8b3-4476-8866-951bb092668b" />
 
-- Then click "Register new PHP version"
+- Click **"Register new PHP version."**
+
+- Navigate to your PHP installation folder and select the `php-cgi.exe` file.
 
 <img width="1822" height="753" alt="21" src="https://github.com/user-attachments/assets/c7d9687a-e578-4922-a38a-8d9a46d6f0a3" />
 
-- From our PHP folder we want to open php.CGI
+- Now, stop the web server by clicking **"Stop"** in the right-hand pane.
+
+<img width="1425" height="752" alt="22" src="https://github.com/user-attachments/assets/3bd9b872-6b1a-4865-b7cf-cdc5da8e9d49" />
+
+- Wait a few moments, then click **"Start"** to restart the web server.
   
 </p>
 <br>
+
+<h3> Install osTicket </h3>
+<p>
+
+- Extract the `osTicket-v1.15.8` file.  
+  If it's already unzipped, you can disregard this step.
+
+<img width="1136" height="790" alt="23" src="https://github.com/user-attachments/assets/0c825eb8-bf5b-4dd3-8926-6a5031943dc0" />
+
+- Open **File Explorer**, go to `Windows (C:)` → open the `inetpub` folder → then the `wwwroot` folder.
+
+- Copy the **`upload`** folder from the osTicket files into the `wwwroot` folder.
+
+<img width="1864" height="661" alt="24" src="https://github.com/user-attachments/assets/4498bfbe-4566-43a8-b519-080f019718ca" />
+
+- Rename the **`upload`** folder to **`osTicket`**  
+  *(must be typed exactly as shown — case-sensitive in some systems).*
+
+<img width="825" height="629" alt="25" src="https://github.com/user-attachments/assets/82449312-7602-44eb-b838-522ce050a3d4" />
+
+- Go back to **IIS**, and stop then start the web server again to apply the changes.
+
+<img width="1425" height="746" alt="26" src="https://github.com/user-attachments/assets/fe0da611-360f-4679-94dd-1fb962b4a101" />
+
+</p>
+<br>
+
+<h3>Open osTicket in Browser</h3>
