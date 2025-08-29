@@ -28,11 +28,24 @@ This specific guide is designed for a broad audience — from non-technical user
 
 <h2>Installation Steps</h2>
 
+<h3> Create a Virtual Machine </h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Disclaimer:</b> Creating a virtual machine is an <i>optional</i> step in this tutorial. osTicket can be installed on a personal desktop. For the purpose of this tutorial, we will be creating a Windows 10 virtual machine.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+- Select "Create a virtual machine" in Azure.
+
+- During the setup process, create a new resource group and give it a name of your choice.
+
+- Make sure to name your resource group clearly for easy identification.
+
+- For the image, select Windows 10 as the operating system for the virtual machine.
+
+<br>
+
+  <img width="1065" height="886" alt="1" src="https://github.com/user-attachments/assets/9d8743aa-fc99-4bfa-9cb9-490fc7ba2838" />
+  
 </p>
 <br />
 
