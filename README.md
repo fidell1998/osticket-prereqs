@@ -331,8 +331,72 @@ This specific guide is designed for a broad audience — from non-technical user
 </p>
 <br>
 
-<h3>osTicket Setup</h3>
+<h3>osTicket and SQL Setup</h3>
 <p>
+
+- Fill out the installation form with the appropriate information.
+
+- Make sure to **remember your username and password** — you’ll need them to log in to the osTicket admin panel later.
+  
   <img width="1920" height="1037" alt="38" src="https://github.com/user-attachments/assets/4412a8c2-1adf-4772-93b4-6f4c265faf13" />
+  
+</p>
+<br>
+
+<h3> Install HeidiSQL </h3>
+<p>
+
+- Click to download **HeidiSQL**.
+
+- Once the download is complete, check the box to **"Launch HeidiSQL"**.
+  
+  <img width="1004" height="802" alt="39" src="https://github.com/user-attachments/assets/59c7deb2-b5fd-4721-8bce-ef630634f8ec" />
+
+- Click **Create** in the bottom left to create a new session.
+
+- Enter the **username** and **password** you set earlier for MySQL.  
+  In this tutorial, we used `"root"` for both.
+
+- Then click **Open**.
+
+<img width="681" height="482" alt="40" src="https://github.com/user-attachments/assets/739b76f9-16cc-4154-81af-d9a503df92a5" />
+
+- In the left panel, right-click on **Unnamed** (next to the dolphin icon), then select:  
+  **Create new → Database** 
+
+<img width="930" height="587" alt="41" src="https://github.com/user-attachments/assets/001a95cc-e1b8-45da-8e01-a60576afa431" />
+
+- For the name, type **`osTicket`**, then click **OK**.
+
+<img width="315" height="256" alt="42" src="https://github.com/user-attachments/assets/53196233-6afc-4809-9acf-d14cf562cc7e" />
+
+- Now go back to the **osTicket setup form in your browser**, and fill out the **database settings** accordingly.
+
+- Then click **"Install Now."**
+
+<img width="816" height="424" alt="43" src="https://github.com/user-attachments/assets/7ca6ee87-773a-46dc-ad4c-afab19b6c66d" />
+
+- You should see the message confirming that **osTicket has been successfully installed!**
+
+<img width="1916" height="1040" alt="45" src="https://github.com/user-attachments/assets/a13720f6-f643-4531-8cbc-fbad64d1e764" />
+
+- Back in **HeidiSQL**, right-click the newly created **osTicket** database on the left, and click **"Refresh."**
+
+- You should now see the database contents appear.
+
+<img width="933" height="594" alt="44" src="https://github.com/user-attachments/assets/080be150-3284-4cdb-ae2b-5fe6df9698fa" />
+
+- In the osTicket confirmation page, click the **"Staff Control Panel"** link to log in.
+
+<img width="1916" height="1040" alt="48" src="https://github.com/user-attachments/assets/cb5a5d57-14de-4fdb-a57b-c88fa6f60f04" />
+
+- Sign in using the **admin username and password** you entered during the setup.
+
+<img width="1910" height="967" alt="46" src="https://github.com/user-attachments/assets/f334f47f-ac69-4541-8d99-74534d593eae" />
+
+- You’re now fully installed and signed in to osTicket!
+
+<img width="1920" height="387" alt="47" src="https://github.com/user-attachments/assets/4ddeef41-61d7-4324-983e-96a5352fa6be" />
+  
 </p>
 <br>
