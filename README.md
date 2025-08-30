@@ -13,9 +13,11 @@ This specific guide is designed for a broad audience — from non-technical user
 - Remote Desktop
 - Internet Information Services (IIS)
 
-<h2>Operating Systems Used </h2>
+<h2>Operating Systems Used</h2>
 
-- Windows 10</b>
+- **Windows 10** – used for installing and configuring osTicket
+
+A Windows 10 virtual machine was created using **Microsoft Azure**, with **macOS** as the host system.
 
 <h2>List of Prerequisites</h2>
 
@@ -27,13 +29,16 @@ This specific guide is designed for a broad audience — from non-technical user
 - Rewrite Module 
 - VC_redistx86 
 
-- <i>All of these files can be found in osTicket documentation.</i>
+<p>All of these files can be found in osTicket documentation.</p>
 
 <h2>Installation Steps</h2>
 
 <h3> Create a Virtual Machine </h3>
 <p>
-<b>Disclaimer:</b> Creating a virtual machine is an <i>optional</i> step in this tutorial. osTicket can be installed on a personal desktop. For the purpose of this tutorial, we will be creating a Windows 10 virtual machine.
+<b>Disclaimer:</b> Creating a virtual machine is an <i>optional</i> step in this tutorial.  
+osTicket can also be installed directly on a personal desktop. For the purposes of this tutorial, we’ll be creating a Windows 10 virtual machine in Azure.  
+
+If you plan to use your own desktop, you can skip ahead to the **"Enable IIS"** step.
 </p>
 <p>
   
