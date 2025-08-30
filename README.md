@@ -280,7 +280,7 @@ This specific guide is designed for a broad audience — from non-technical user
   - `php_intl.dll`  
   - `php_opcache.dll`
 
-<img width="1918" height="1039" alt="30" src="https://github.com/user-attachments/assets/82ccf110-e26e-4e78-9c0a-840e5690fbcb" />
+<img width="1918" height="1039" alt="30" src="https://github.com/user-attachments/assets/d31553ab-c2c8-47f9-8d8e-e4ff923ad21f" />
 
 - Once those are enabled, refresh the osTicket page in your browser.  
   It should now look like this, with fewer warnings and a green check next to required extensions:
@@ -290,8 +290,49 @@ This specific guide is designed for a broad audience — from non-technical user
 </p>
 <br>
 
-<h3></h3>
+<h3>Rename and assign ost-config.php</h3>
 <p>
+
+- Open **File Explorer** and navigate to:  
+  `C:\inetpub\wwwroot\osTicket\include`
+
+- Scroll down until you find the file named **`ost-sampleconfig.php`**.
+
+<img width="1071" height="869" alt="34" src="https://github.com/user-attachments/assets/b146da27-36e9-4913-aed6-01664c06e294" />
+
+- Rename the file to **`ost-config.php`** (exact spelling required).
+
+<img width="1069" height="868" alt="33" src="https://github.com/user-attachments/assets/b98932e5-2849-46db-9d5b-b641ed9a428c" />
+
+- After renaming, **right-click** the file and select **Properties**.
+
+- Click the **Security** tab at the top, then click **Advanced**.
+
+<img width="357" height="505" alt="35" src="https://github.com/user-attachments/assets/ea275181-2560-4496-9f0b-be32544642f0" />
+
+- In the Advanced Security Settings window, click **Disable inheritance**.
+
+- Then click **Remove all inherited permissions from this object**.
+
+<img width="1270" height="686" alt="36" src="https://github.com/user-attachments/assets/55adde89-d338-49bc-b3a0-5707fe2b63f7" />
+
+- Click **Add** to add new permissions.
+
+- Next to **Principal**, click **Select a principal**.
+
+- In the input box, type **`Everyone`**, then click **OK**.
+
+- Check the box for **Full control**, then click **OK** again.
+
+- Finally, click **Apply** in the bottom-right corner to save the changes.
+
+<img width="1215" height="852" alt="37" src="https://github.com/user-attachments/assets/07da78d1-95dd-41be-aa18-7385ee7fe07d" />
   
+</p>
+<br>
+
+<h3>osTicket Setup</h3>
+<p>
+  <img width="1920" height="1037" alt="38" src="https://github.com/user-attachments/assets/4412a8c2-1adf-4772-93b4-6f4c265faf13" />
 </p>
 <br>
