@@ -15,7 +15,7 @@ This specific guide is designed for a broad audience, from non-technical users t
 
 <h2>Operating Systems Used</h2>
 
-- **Windows 10** – used for installing and configuring osTicket
+- **Windows 10** used for installing and configuring osTicket
 
 A Windows 10 virtual machine was created using **Microsoft Azure**, with **macOS** as the host system.
 
