@@ -4,7 +4,7 @@
 
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation steps for osTicket, an open-source help desk ticketing system.
-This specific guide is designed for a broad audience — from non-technical users to IT professionals — making it accessible regardless of your technical background.
+This specific guide is designed for a broad audience, from non-technical users to IT professionals, making it accessible regardless of your technical background.
 <br />
 
 <h2>Environments and Technologies Used</h2>
