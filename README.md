@@ -56,7 +56,7 @@ If you plan to use your own desktop, you can skip ahead to the **"Enable IIS"** 
 
 - Scroll down and choose a **size** that includes at least **2 vCPUs**.
 
-- Under **Administrator account**, enter a **username** and **password** — you'll need this information later to access your VM.
+- Under **Administrator account**, enter a **username** and **password**, you'll need this information later to access your VM.
 
 - At the bottom of the page, check the box that says:  
   *“I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights”* under the **Licensing** section.
@@ -74,7 +74,7 @@ If you plan to use your own desktop, you can skip ahead to the **"Enable IIS"** 
 
 - Azure will automatically create a **virtual network** for your virtual machine.
 
-- Once **validation passes**, you’re good to go — click **Create** to start the deployment.
+- Once **validation passes**, you’re good to go, click **Create** to start the deployment.
 </p>
 
 <br />
@@ -86,7 +86,7 @@ If you plan to use your own desktop, you can skip ahead to the **"Enable IIS"** 
   
 <img width="1890" height="875" alt="3" src="https://github.com/user-attachments/assets/095deb0a-34fb-47c2-be48-4f60dd37a914" />
   
-- Copy or note down the **Public IP address** — you’ll need it to connect to the VM.
+- Copy or note down the **Public IP address**, you’ll need it to connect to the VM.
 
 - Make sure you have **Microsoft Remote Desktop** (or the **Windows App**) installed on your desktop.  
   This will allow you to open and access your virtual machine.
@@ -101,7 +101,7 @@ If you plan to use your own desktop, you can skip ahead to the **"Enable IIS"** 
   
 <img width="1410" height="716" alt="4" src="https://github.com/user-attachments/assets/ea478d66-eee2-4298-9c6a-c4df8d2c8022" />
 
-- You will then be prompted to enter a **PC Name** — this is where you input the **IP address** from the previous step.
+- You will then be prompted to enter a **PC Name**, this is where you input the **IP address** from the previous step.
 
 - In the next prompt, enter the **username and password** you created for the virtual machine.
 
@@ -186,7 +186,7 @@ If you plan to use your own desktop, you can skip ahead to the **"Enable IIS"** 
 
   <img width="1148" height="676" alt="18" src="https://github.com/user-attachments/assets/f2b95147-8c7b-467a-bde2-1cb8df1a04f5" />
 
-- Set a **password** and make sure to write it down — you'll need it later.  
+- Set a **password** and make sure to write it down, you'll need it later.  
   For this tutorial, we’ll use `"root"` as the password.
   
 - Click **Next**, then click **Finish** once the configuration process completes.
@@ -235,7 +235,7 @@ If you plan to use your own desktop, you can skip ahead to the **"Enable IIS"** 
 <img width="1864" height="661" alt="24" src="https://github.com/user-attachments/assets/4498bfbe-4566-43a8-b519-080f019718ca" />
 
 - Rename the **`upload`** folder to **`osTicket`**  
-  *(must be typed exactly as shown — case-sensitive in some systems).*
+  *(must be typed exactly as shown, case-sensitive in some systems).*
 
 <img width="825" height="629" alt="25" src="https://github.com/user-attachments/assets/82449312-7602-44eb-b838-522ce050a3d4" />
 
@@ -251,7 +251,7 @@ If you plan to use your own desktop, you can skip ahead to the **"Enable IIS"** 
   
 - Make sure **IIS** is open and running **as Administrator**.
 
-- In the **Connections** panel on the left, expand the top option — this should be the name of your virtual machine (in this example, it's `osticket-vm`).  
+- In the **Connections** panel on the left, expand the top option, this should be the name of your virtual machine (in this example, it's `osticket-vm`).  
   Click the small arrow to expand it.
 
 - Navigate to:  
@@ -265,7 +265,7 @@ If you plan to use your own desktop, you can skip ahead to the **"Enable IIS"** 
 
 <img width="929" height="1004" alt="28" src="https://github.com/user-attachments/assets/43a5b9e9-2e68-475b-b711-c2382e3006a2" />
 
-- If you **don’t** see this page, I recommend going back and reviewing each step carefully — even a small misconfiguration can prevent this screen from loading.
+- If you **don’t** see this page, I recommend going back and reviewing each step carefully, even a small misconfiguration can prevent this screen from loading.
 
 </p>
 <br>
@@ -341,7 +341,7 @@ If you plan to use your own desktop, you can skip ahead to the **"Enable IIS"** 
 
 - Fill out the installation form with the appropriate information.
 
-- Make sure to **remember your username and password** — you’ll need them to log in to the osTicket admin panel later.
+- Make sure to **remember your username and password**, you’ll need them to log in to the osTicket admin panel later.
   
   <img width="1920" height="1037" alt="38" src="https://github.com/user-attachments/assets/4412a8c2-1adf-4772-93b4-6f4c265faf13" />
   
